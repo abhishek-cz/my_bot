@@ -20,6 +20,8 @@ def generate_launch_description():
 
     package_name='my_bot' #<--- CHANGE ME
 
+    slam_params_file = os.path.join(get_package_share_directory('my_bot'), 'config', 'slam_toolbox_params.yaml')
+
     rsp = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory(package_name),'launch','rsp.launch.py'
@@ -67,10 +69,29 @@ def generate_launch_description():
         parameters=[{'use_sim_time': True}]
     )
 
+    rviz_config = os.path.join(get_package_share_directory(package_name), 'config', 'slam.rviz')
     rviz2 = Node(
         package='rviz2',
         executable='rviz2',
+        arguments=['-d', rviz_config],
+        parameters=[{'use_sim_time': True}],
         output='screen'
+    )
+
+    slam_toolbox = Node(
+        package='slam_toolbox',
+        executable='async_slam_toolbox_node',
+        name='slam_toolbox',
+        output='screen',
+        parameters=[slam_params_file, {'use_sim_time': True}]
+    )
+
+    lifecycle_manager_slam = Node(
+        package='nav2_lifecycle_manager',
+        executable='lifecycle_manager',
+        name='lifecycle_manager_slam',
+        output='screen',
+        parameters=[{'use_sim_time': True, 'autostart': True, 'bond_timeout': 0.0, 'node_names': ['slam_toolbox']}]
     )
 
     # Launch them all!
@@ -80,6 +101,8 @@ def generate_launch_description():
         gazebo,
         spawn_entity,
         ros_gz_bridge,
+        slam_toolbox,
+        lifecycle_manager_slam,
         lidar_avoider,
         rviz2,
     ])
