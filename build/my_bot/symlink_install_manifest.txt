@@ -1,3 +1,4 @@
+/home/navbot/dev_ws/install/my_bot/share/my_bot/config/amcl_params.yaml
 /home/navbot/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
 /home/navbot/dev_ws/install/my_bot/share/my_bot/config/gz_bridge.yaml
 /home/navbot/dev_ws/install/my_bot/share/my_bot/config/slam.rviz
@@ -8,11 +9,15 @@
 /home/navbot/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
 /home/navbot/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
 /home/navbot/dev_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+/home/navbot/dev_ws/install/my_bot/share/my_bot/launch/localization.launch.py
 /home/navbot/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
 /home/navbot/dev_ws/install/my_bot/share/my_bot/launch/slam.launch.py
+/home/navbot/dev_ws/install/my_bot/share/my_bot/maps/my_map.pgm
+/home/navbot/dev_ws/install/my_bot/share/my_bot/maps/my_map.yaml
 /home/navbot/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
 /home/navbot/dev_ws/install/my_bot/share/my_bot/worlds/simple_world.world
 /home/navbot/dev_ws/install/my_bot/lib/my_bot/lidar_avoider.py
+/home/navbot/dev_ws/install/my_bot/lib/my_bot/explorer.py
 /home/navbot/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
 /home/navbot/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
 /home/navbot/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
