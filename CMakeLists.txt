@@ -33,12 +33,13 @@ if(BUILD_TESTING)
 endif()
 
 install(
-  DIRECTORY config description launch worlds
+  DIRECTORY config description launch maps worlds
   DESTINATION share/${PROJECT_NAME}
 )
 
 install(PROGRAMS
   scripts/lidar_avoider.py
+  scripts/explorer.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

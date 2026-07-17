@@ -69,6 +69,13 @@ def generate_launch_description():
         parameters=[{'use_sim_time': True}]
     )
 
+    explorer = Node(
+        package='my_bot',
+        executable='explorer.py',
+        output='screen',
+        parameters=[{'use_sim_time': True}]
+    )
+
     rviz_config = os.path.join(get_package_share_directory(package_name), 'config', 'slam.rviz')
     rviz2 = Node(
         package='rviz2',
@@ -104,5 +111,6 @@ def generate_launch_description():
         slam_toolbox,
         lifecycle_manager_slam,
         lidar_avoider,
+        explorer,
         rviz2,
     ])
