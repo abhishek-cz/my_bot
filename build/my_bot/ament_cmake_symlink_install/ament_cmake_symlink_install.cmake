@@ -318,8 +318,8 @@ message(STATUS "Execute custom install script")
 # install(DIRECTORY "config" "description" "launch" "maps" "worlds" "DESTINATION" "share/my_bot")
 ament_cmake_symlink_install_directory("/home/navbot/dev_ws/src/my_bot" DIRECTORY "config" "description" "launch" "maps" "worlds" "DESTINATION" "share/my_bot")
 
-# install(PROGRAMS "scripts/lidar_avoider.py" "scripts/explorer.py" "DESTINATION" "lib/my_bot")
-ament_cmake_symlink_install_programs("/home/navbot/dev_ws/src/my_bot" PROGRAMS "scripts/lidar_avoider.py" "scripts/explorer.py" "DESTINATION" "lib/my_bot")
+# install(PROGRAMS "scripts/lidar_avoider.py" "scripts/explorer.py" "scripts/map_auto_saver.py" "scripts/map_saver.py" "DESTINATION" "lib/my_bot")
+ament_cmake_symlink_install_programs("/home/navbot/dev_ws/src/my_bot" PROGRAMS "scripts/lidar_avoider.py" "scripts/explorer.py" "scripts/map_auto_saver.py" "scripts/map_saver.py" "DESTINATION" "lib/my_bot")
 
 # install(FILES "/home/navbot/dev_ws/build/my_bot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_bot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/navbot/dev_ws/src/my_bot" FILES "/home/navbot/dev_ws/build/my_bot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_bot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

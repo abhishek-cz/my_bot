@@ -1,0 +1,50 @@
+[0.011s] Invoking command in '/home/navbot/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/navbot/dev_ws/build/my_bot -- -j8 -l8
+[0.039s] Invoked command in '/home/navbot/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/navbot/dev_ws/build/my_bot -- -j8 -l8
+[0.046s] Invoking command in '/home/navbot/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/navbot/dev_ws/build/my_bot
+[0.052s] -- Install configuration: ""
+[0.052s] -- Execute custom install script
+[0.052s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/config/amcl_params.yaml
+[0.052s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
+[0.053s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/config/gz_bridge.yaml
+[0.053s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/config/nav2_params.yaml
+[0.053s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/config/slam.rviz
+[0.053s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/config/slam_toolbox_params.yaml
+[0.053s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[0.053s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[0.053s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[0.053s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[0.053s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[0.053s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[0.053s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/launch/localization.launch.py
+[0.053s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/launch/navigation.launch.py
+[0.054s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[0.054s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/launch/slam.launch.py
+[0.054s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/maps/.gitkeep
+[0.054s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/maps/my_map.data
+[0.054s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/maps/my_map.pgm
+[0.054s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/maps/my_map.posegraph
+[0.054s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/maps/my_map.yaml
+[0.054s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
+[0.054s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/worlds/home_map.world
+[0.054s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/worlds/simple_world.world
+[0.055s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/lib/my_bot/lidar_avoider.py
+[0.055s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/lib/my_bot/explorer.py
+[0.055s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/lib/my_bot/map_auto_saver.py
+[0.055s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/lib/my_bot/save_map.sh
+[0.055s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[0.055s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[0.055s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[0.055s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[0.056s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+[0.056s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+[0.056s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+[0.056s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+[0.056s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+[0.056s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+[0.056s] -- Symlinking: /home/navbot/dev_ws/install/my_bot/share/my_bot/package.dsv
+[0.063s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[0.063s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[0.063s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[0.063s] -- Up-to-date symlink: /home/navbot/dev_ws/install/my_bot/share/my_bot/package.xml
+[0.063s] -- Up-to-date: /home/navbot/dev_ws/install/my_bot/lib/my_bot/waypoint_navigator
+[0.065s] Invoked command in '/home/navbot/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/navbot/dev_ws/build/my_bot

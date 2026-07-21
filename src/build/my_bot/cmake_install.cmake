@@ -47,7 +47,17 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/navbot/dev_ws/src/my_bot/config"
     "/home/navbot/dev_ws/src/my_bot/description"
     "/home/navbot/dev_ws/src/my_bot/launch"
+    "/home/navbot/dev_ws/src/my_bot/maps"
     "/home/navbot/dev_ws/src/my_bot/worlds"
+    )
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_bot" TYPE PROGRAM FILES
+    "/home/navbot/dev_ws/src/my_bot/scripts/lidar_avoider.py"
+    "/home/navbot/dev_ws/src/my_bot/scripts/explorer.py"
+    "/home/navbot/dev_ws/src/my_bot/scripts/map_auto_saver.py"
+    "/home/navbot/dev_ws/src/my_bot/scripts/map_saver.py"
     )
 endif()
 

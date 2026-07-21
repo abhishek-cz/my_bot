@@ -1,1 +1,1 @@
-ament_lint_auto;ament_lint_common
+rclpy;geometry_msgs;sensor_msgs;nav_msgs;robot_state_publisher;joint_state_publisher;xacro;ros_gz_sim;ros_gz_bridge;rviz2;slam_toolbox;nav2_map_server;nav2_lifecycle_manager;nav2_amcl;ament_lint_auto;ament_lint_common
